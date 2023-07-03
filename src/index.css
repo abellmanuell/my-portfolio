@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  font-family: "Be Vietnam Pro";
+  height: 100%;
+  width: 100%;
+}
+
+#bg-sprinkle {
+  background: url("./assets/Sprinkle.svg");
+  background-repeat: repeat;
+}
