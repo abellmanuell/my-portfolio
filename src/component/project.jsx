@@ -9,13 +9,13 @@ export default function project({
   sourceCodeURL,
 }) {
   return (
-    <div className=" rounded-md bg-amethyst-50 p-8 shadow-md shadow-amethyst-100">
-      <img src={img} alt="Apex Crypto Recovery" loading="lazy" />
+    <div className=" rounded-md border-2 border-amethyst-100 p-3 shadow-md shadow-amethyst-100">
+      <img src={img} alt={'Image here'} loading="lazy" className="rounded-md opacity-75 hover:opacity-100"/>
 
       <div>
-        <p className="py-5 text-xl">
+        <p className="px-5 py-2 text-base text-amethyst-900">
           {description ||
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repudiandae alias itaque non autem, dolore vitae aliquid quam maxime cum."}
+            "No description"}
         </p>
 
         <div className="flex justify-end text-2xl">

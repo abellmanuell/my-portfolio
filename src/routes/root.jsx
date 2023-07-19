@@ -5,6 +5,7 @@ import Handle from "@/component/handle";
 import IntroView from "@/component/introview";
 import About from "@/component/about";
 import Project from "@/component/projects";
+import Skills from "../component/skills";
 
 export default function root() {
   useEffect(() => {
@@ -36,12 +37,16 @@ export default function root() {
         </main>
       </div>
 
-      <section id="bg-sprinkle"  className="md:h-full">
+      <section id="bg-sprinkle" className="md:h-full">
         <About />
       </section>
 
-      <section  id="bg-sprinkle"  className="md:h-full">
+      <section id="bg-sprinkle">
         <Project />
+      </section>
+
+      <section id="bg-sprinkle">
+        <Skills />
       </section>
     </article>
   );

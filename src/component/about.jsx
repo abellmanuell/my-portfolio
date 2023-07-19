@@ -8,7 +8,7 @@ export default function about() {
         <Heading content="More About Me" />
 
         <p className="py-12 text-xl">
-          A front-end software engineer with technical writing as a secondary
+          A software engineer with technical writing as a secondary
           superpower.
           <br />
           <br />
