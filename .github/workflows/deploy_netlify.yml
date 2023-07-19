@@ -2,7 +2,7 @@ name: Deploy To Netlify
 run-name: ${{ github.actor }} update ${{ github.repository }}
 
 on:
-  push: - main
+  push: [main]
 
 job:
   deploy:
@@ -11,10 +11,10 @@ job:
     steps:
       - name: Checkout Repostory 🛎️
         uses: actions/checkout@v3
-      
+
       - name: Setup Node Environment
         uses: actions/setup-node@v3
-        with: 
+        with:
           node-version: latest
 
       - name: Install pnpm
@@ -22,16 +22,16 @@ job:
 
       - name: Install 🔧
         run: pnpm install
-      
+
       - name: Build 🏗️
         run: |
           pnpm store prune 
           pnpm run build
-      
+
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v2.0
         with:
-          publish-dir: './dist'
+          publish-dir: "./dist"
           production-branch: main
           github-token: ${{ secrets.GITHUB_TOKEN }}
         env:
