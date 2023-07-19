@@ -1,5 +1,5 @@
 name: Deploy To Netlify
-run-name: ${{ github.actor }} update ${{ github.repository }}
+runs-name: ${{ github.actor }} update ${{ github.repository }}
 
 on:
   push: [main]
