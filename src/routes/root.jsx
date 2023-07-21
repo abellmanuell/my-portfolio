@@ -6,6 +6,7 @@ import IntroView from "@/component/introview";
 import About from "@/component/about";
 import Project from "@/component/projects";
 import Skills from "../component/skills";
+import Footer from "../component/footer";
 
 export default function root() {
   useEffect(() => {
@@ -31,8 +32,9 @@ export default function root() {
         <main>
           <IntroView
             developer="Abel Emmanuel"
-            title="Software Developer"
-            description="I'm a growing developer with a primary focus on Javascript, React, and open-source projects. I love being part of communities that inspire and challenge one another."
+            title="Software Engineer"
+            /* description="I'm a growing developer with a primary focus on Javascript, React, and open-source projects. I love being part of communities that inspire and challenge one another." */
+            description="I'm a software engineer, a problem solver, and with the knowledge of software stacks. I have the superpower to transform ideas into reality. "
           />
         </main>
       </div>
@@ -47,6 +49,10 @@ export default function root() {
 
       <section id="bg-sprinkle">
         <Skills />
+      </section>
+
+      <section id="bg-sprinkle">
+        <Footer />
       </section>
     </article>
   );

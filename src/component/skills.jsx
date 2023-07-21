@@ -17,41 +17,41 @@ export default function Skills() {
       <Heading content="My Skills and Technologies" />
 
       <main>
-        <section className="py-4 grid grid-cols-2 space-y-2 md:grid-cols-3">
+        <section className="py-4 grid space-y-2 md:grid-cols-3">
           <span className="flex items-center text-2xl">
-            <AiFillHtml5 className="text-8xl" /> HTML5
+            <AiFillHtml5 className="md:text-8xl" /> HTML5
           </span>
 
           <span className="flex items-center text-2xl">
-            <BiLogoCss3 className="text-8xl" /> CSS3
+            <BiLogoCss3 className="md:text-8xl" /> CSS3
           </span>
 
           <span className="flex items-center text-2xl">
-            <BiLogoJavascript className="text-8xl" /> JavaScript
+            <BiLogoJavascript className="md:text-8xl" /> JavaScript
           </span>
 
           <span className="flex items-center text-2xl">
-            <BiLogoReact className="text-8xl" /> React/Redux
+            <BiLogoReact className="md:text-8xl" /> React/Redux
           </span>
 
           <span className="flex items-center text-2xl">
-            <BiLogoNodejs className="text-8xl" /> Node.js
+            <BiLogoNodejs className="md:text-8xl" /> Node.js
           </span>
 
           <span className="flex items-center text-2xl">
-            <FcGoogle className="text-8xl" /> Googling
+            <FcGoogle className="md:text-8xl" /> Googling
           </span>
 
           <span className="flex items-center text-2xl">
-            <BsGit className="text-8xl" /> Git/Shell
+            <BsGit className="md:text-8xl" /> Git/Shell
           </span>
 
           <span className="flex items-center text-2xl">
-            <BiLogoTailwindCss className="text-8xl" /> Tailwindcss
+            <BiLogoTailwindCss className="md:text-8xl" /> Tailwindcss
           </span>
 
           <span className="flex items-center text-2xl">
-            <BiLogoSass className="text-8xl" /> SASS
+            <BiLogoSass className="md:text-8xl" /> SASS
           </span>
         </section>
       </main>
