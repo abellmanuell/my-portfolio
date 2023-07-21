@@ -39,7 +39,7 @@ export default function root() {
         </main>
       </div>
 
-      <section id="bg-sprinkle" className="md:h-full">
+      <section id="bg-sprinkle">
         <About />
       </section>
 

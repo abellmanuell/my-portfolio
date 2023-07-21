@@ -17,7 +17,7 @@ export default function Skills() {
       <Heading content="My Skills and Technologies" />
 
       <main>
-        <section className="py-4 grid space-y-2 md:grid-cols-3">
+        <section className="py-4 grid space-y-2 md:grid-cols-3 text-amethyst-900">
           <span className="flex items-center text-2xl">
             <AiFillHtml5 className="md:text-8xl" /> HTML5
           </span>

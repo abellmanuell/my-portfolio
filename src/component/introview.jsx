@@ -18,7 +18,7 @@ export default function introview(props) {
           <br />
           {developer || "Joe Doe"}
         </h1>
-        <p className="py-6 sm:py-12 text-lg">
+        <p className="py-6 sm:py-12 text-lg text-amethyst-900">
           {description || "No Description"}
         </p>
 

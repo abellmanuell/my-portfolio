@@ -3,13 +3,12 @@ import Heading from "./heading";
 
 export default function about() {
   return (
-    <div className="w-[90vw] md:w-4/5 mx-auto py-20 grid md:grid-cols-2">
+    <div className="w-[90vw] md:w-4/5 mx-auto pt-20 grid md:grid-cols-2">
       <div>
         <Heading content="More About Me" />
 
-        <p className="py-12 text-xl">
-          A software engineer with technical writing as a secondary
-          superpower.
+        <p className="py-12 text-2xl text-amethyst-900">
+          A software engineer with technical writing as a secondary superpower.
           <br />
           <br />
           Whether I'm working with JavaScript to solve algorithms or developing
