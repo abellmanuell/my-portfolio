@@ -9,10 +9,6 @@ import Skills from "../component/skills";
 import Footer from "../component/footer";
 
 export default function root() {
-  useEffect(() => {
-    document.title = "(@abellmanuell) Abel Emmanuel";
-  }, []);
-
   return (
     <article id="bg-sprinkle" className="h-full">
       <div className="md:h-full">
