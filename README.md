@@ -34,6 +34,6 @@ When developing, I start with a feature, not a layout. This enables me to stay f
 🔘 React/Redux for modern single-page application (SPA)
 🔘 Express.js 🔘 Tailwindcss/SASS or CSS3 for styling. 🔘 Material UI
 
-**Support me by giving me starring**. 🌟
+**Support me by giving me star**. 🌟
 
 Thanks.
