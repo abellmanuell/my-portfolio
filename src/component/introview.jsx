@@ -34,7 +34,7 @@ export default function introview(props) {
           </li>
           <li>
             <a
-              href="/Abel_Emmanuel.pdf"
+              href="/abellmanuell_resume.pdf"
               className="inline-flex justify-center items-center bg-white text-black border-2 border-amethyst-900 py-4 px-10 rounded-md font-bold space-x-1"
               download
             >
