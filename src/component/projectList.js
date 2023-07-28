@@ -17,4 +17,12 @@ export const productList = [
     webSiteURL: "https://twitterc-lone.netlify.app/",
     sourceCodeURL: "https://github.com/abellmanuell/twitter-clone-",
   },
+  {
+    id: time,
+    img: "/pgenerator.gif",
+    description:
+      "A strong password is a secure account. Password Generator is designed to combine four character types to generate strong password. It combine uppercase letter, lowercase letter, numbers, and specials.",
+    webSiteURL: "https://passcodes-generator.netlify.app/",
+    sourceCodeURL: "https://github.com/abellmanuell/password-generator",
+  },
 ];
