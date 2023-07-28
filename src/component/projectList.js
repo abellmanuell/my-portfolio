@@ -25,4 +25,4 @@ export const productList = [
     webSiteURL: "https://passcodes-generator.netlify.app/",
     sourceCodeURL: "https://github.com/abellmanuell/password-generator",
   },
-];
+].reverse();

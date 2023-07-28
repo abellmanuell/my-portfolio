@@ -30,7 +30,7 @@ export default function root() {
             developer="Abel Emmanuel"
             title="Software Engineer"
             /* description="I'm a growing developer with a primary focus on Javascript, React, and open-source projects. I love being part of communities that inspire and challenge one another." */
-            description="I'm a software engineer, a problem solver, and with the knowledge of software stacks. I have the superpower to transform ideas into reality. "
+            description="I'm a software engineer, a problem solver, and with my knowledge of software stacks. I have the superpower to transform ideas into reality. "
           />
         </main>
       </div>
