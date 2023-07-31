@@ -25,4 +25,12 @@ export const productList = [
     webSiteURL: "https://passcodes-generator.netlify.app/",
     sourceCodeURL: "https://github.com/abellmanuell/password-generator",
   },
+  {
+    id: time,
+    img: "/add-comma-to-number.gif",
+    description:
+      "Add Comma To-Number is a package I develop that accepts a numbers as a parameter and outputs a readable formatted figure with a comma.",
+    webSiteURL: "https://abellmanuell.github.io/add-comma-to-numbers/",
+    sourceCodeURL: "https://github.com/abellmanuell/add-comma-to-numbers",
+  },
 ].reverse();
