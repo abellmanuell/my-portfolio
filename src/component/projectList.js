@@ -33,4 +33,12 @@ export const productList = [
     webSiteURL: "https://abellmanuell.github.io/add-comma-to-numbers/",
     sourceCodeURL: "https://github.com/abellmanuell/add-comma-to-numbers",
   },
+  {
+    id: time,
+    img: "/url-shortener.png",
+    description:
+      "Ell ShortURL allows to shorten long links from Instagram, Facebook, YouTube, Twitter, Linked In, WhatsApp, TikTok, blogs and sites. Just paste the long URL and click the Shorten URL button. On the next page, copy the shortened URL and share it on sites, chat and emails.",
+    webSiteURL: "https://ell-url-shortener.vercel.app/",
+    sourceCodeURL: "https://github.com/abellmanuell/url-shortener",
+  },
 ].reverse();
