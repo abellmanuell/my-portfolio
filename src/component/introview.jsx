@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaUserTie, FaFile } from "react-icons/fa";
-import langAnimation from "../animation/programming-languages.json";
-import LottieAnimation from "../Lottie";
-
 export default function introview(props) {
   const { title, developer, description } = props;
 
@@ -43,10 +40,6 @@ export default function introview(props) {
             </a>
           </li>
         </ol>
-      </div>
-
-      <div className="hidden md:block">
-        <LottieAnimation lotti={langAnimation} />
       </div>
     </section>
   );
