@@ -7,6 +7,12 @@ function Contact() {
       <div className="px-5 py-10">
         <div className="flex justify-center space-x-2 text-5xl">
           <div>
+            <a href="mailto:mannydev02@gmail.com" target="_blank">
+              <Icon icon="logos:google-gmail" />
+            </a>
+          </div>
+
+          <div>
             <a href="https://twitter.com/abellmanuell" target="_blank">
               <Icon icon="ri:twitter-x-fill" />
             </a>

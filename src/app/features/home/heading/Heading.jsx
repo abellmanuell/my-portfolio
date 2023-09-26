@@ -51,6 +51,7 @@ function Heading() {
                 className="w-14"
                 src={myPicture}
                 alt="Abel Emmanuel Picture"
+                loading="lazy"
               />
             </Link>
           </div>

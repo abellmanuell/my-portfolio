@@ -43,6 +43,7 @@ function Project({ name, image, description, github_url, url, languages }) {
             className="w-[600px] bg-white h-[300px] object-contain rounded-lg shadow-md"
             src={`/projects/${image}`}
             alt={name}
+            loading="lazy"
           />
         </div>
 
