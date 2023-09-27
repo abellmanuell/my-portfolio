@@ -17,7 +17,7 @@ function MainHomeContent() {
 
           <section className="pb-10 md:pb-20">
             <p>
-              I am{" "}
+              I am a{" "}
               <strong className="text-orange-500">Software Developer</strong>{" "}
               based in Nigeria, I have experience building websites and
               applications with JavaScript, React, Redux, Express, NodeJs,
