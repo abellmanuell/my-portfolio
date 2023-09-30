@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        "blue-004892": "#004892",
-        "orange-fdf300": "#FDF300",
+        "blue-004892": "#3943B7",
+        "orange-fdf300": "#FFD23F",
       },
       fontFamily: {
         poppins: ["poppins", "sans-serif"],

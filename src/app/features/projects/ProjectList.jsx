@@ -5,7 +5,7 @@ const projects = [
   {
     id: "1",
     name: "Twitter Clone",
-    image: "/twitter-clone.png",
+    image: "twitter-clone.png",
     description:
       "A clone of web twitter application using React, Tailwindcss and other libraries.",
     languages: ["React", "Tailwind"],
@@ -15,7 +15,7 @@ const projects = [
   {
     id: "2",
     name: "Paau Market",
-    image: "/pauu-market.png",
+    image: "pauu-market.png",
     description:
       "Paau Market is a dynamic MERN eCommerce application that tends to create an avenue for students to buy or sell products to other students.",
     languages: ["React", "Tailwind", "Express", "MongoDB", "Redux"],
@@ -37,14 +37,12 @@ function ProjectList() {
 function Project({ name, image, description, github_url, url, languages }) {
   return (
     <>
-      <article className="space-y-10 md:space-y-0 md:space-x-10 md:flex items-center pb-10">
+      <article className="space-y-10 md:space-y-0 md:space-x-10 pb-10 md:grid grid-cols-2 items-center">
         <div>
-          <img
-            className="w-[600px] bg-white h-[300px] object-contain rounded-lg shadow-md"
-            src={`/projects/${image}`}
-            alt={name}
-            loading="lazy"
-          />
+          <div
+            className="before:table before:pt-[70%] bg-cover bg-[40%] bg-white bg-no-repeat relative rounded-lg shadow-md"
+            style={{ backgroundImage: `url(/projects/${image})` }}
+          ></div>
         </div>
 
         <div>
@@ -65,10 +63,10 @@ function Project({ name, image, description, github_url, url, languages }) {
             </div>
           </div>
 
-          <div className="space-x-2">
+          <div className="space-x-2 text-2xl">
             <a
               href={github_url}
-              className="inline-block p-2 bg-orange-500 text-white rounded-lg"
+              className="inline-block p-2 bg-orange-fdf300 text-white rounded-md"
               target="_blank"
             >
               <Icon icon="devicon:github" />

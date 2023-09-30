@@ -18,7 +18,7 @@ function MainHomeContent() {
           <section className="pb-10 md:pb-20">
             <p>
               I am a{" "}
-              <strong className="text-orange-500">Software Developer</strong>{" "}
+              <strong className="text-orange-fdf300">Software Developer</strong>{" "}
               based in Nigeria, I have experience building websites and
               applications with JavaScript, React, Redux, Express, NodeJs,
               Tailwind, and MongoDB. With the tools I have, I have built

@@ -91,7 +91,7 @@ function Heading() {
 
               <div>
                 <Link
-                  className="cursor-pointer hover:underline decoration-orange-fdf300"
+                  className="cursor-pointer hover:underline decoration-white"
                   activeClass="active"
                   to="projects"
                   spy={true}
@@ -104,7 +104,7 @@ function Heading() {
 
               <div>
                 <Link
-                  className="cursor-pointer hover:underline decoration-orange-fdf300"
+                  className="cursor-pointer hover:underline decoration-white"
                   activeClass="active"
                   to="contact"
                   spy={true}
@@ -120,7 +120,7 @@ function Heading() {
                 <a
                   href={cv}
                   download
-                  className="cursor-pointer hover:underline decoration-orange-fdf300 block bg-orange-500 px-4 py-2 rounded-md shadow-md"
+                  className="cursor-pointer hover:underline decoration-white block bg-orange-fdf300 px-4 py-2 rounded-md shadow-md"
                 >
                   View CV
                 </a>
