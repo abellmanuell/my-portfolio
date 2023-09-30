@@ -1,5 +1,6 @@
 import React from "react";
 import { Icon } from "@iconify/react";
+import { Fade } from "react-swift-reveal";
 
 const projects = [
   {
@@ -37,50 +38,52 @@ function ProjectList() {
 function Project({ name, image, description, github_url, url, languages }) {
   return (
     <>
-      <article className="space-y-10 md:space-y-0 md:space-x-10 pb-10 md:grid grid-cols-2 items-center">
-        <div>
-          <div
-            className="before:table before:pt-[70%] bg-cover bg-[40%] bg-white bg-no-repeat relative rounded-lg shadow-md"
-            style={{ backgroundImage: `url(/projects/${image})` }}
-          ></div>
-        </div>
+      <Fade duration={1000} delay={500}>
+        <article className="space-y-10 md:space-y-0 md:space-x-10 pb-10 md:grid grid-cols-2 items-center">
+          <div>
+            <div
+              className="before:table before:pt-[70%] bg-cover bg-[40%] bg-white bg-no-repeat relative rounded-lg shadow-md"
+              style={{ backgroundImage: `url(/projects/${image})` }}
+            ></div>
+          </div>
 
-        <div>
-          <h3 className="text-5xl font-semibold">{name}</h3>
-          <div className="pt-5">
-            <p>{description}</p>
-            <div className="grid grid-cols-4 gap-2 py-5 text-center text-xs">
-              {languages.map((language, index) => {
-                return (
-                  <div
-                    key={index}
-                    className="bg-neutral-200 shadow-sm p-2 rounded-lg"
-                  >
-                    {language}
-                  </div>
-                );
-              })}
+          <div>
+            <h3 className="text-5xl font-semibold">{name}</h3>
+            <div className="pt-5">
+              <p>{description}</p>
+              <div className="grid grid-cols-4 gap-2 py-5 text-center text-xs">
+                {languages.map((language, index) => {
+                  return (
+                    <div
+                      key={index}
+                      className="bg-neutral-200 shadow-sm p-2 rounded-lg"
+                    >
+                      {language}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            <div className="space-x-2 text-2xl">
+              <a
+                href={github_url}
+                className="inline-block p-2 bg-orange-fdf300 text-white rounded-md"
+                target="_blank"
+              >
+                <Icon icon="devicon:github" />
+              </a>
+              <a
+                href={url}
+                className="inline-block p-2 bg-blue-004892 text-white rounded-lg"
+                target="_blank"
+              >
+                <Icon icon="mdi:web" />
+              </a>
             </div>
           </div>
-
-          <div className="space-x-2 text-2xl">
-            <a
-              href={github_url}
-              className="inline-block p-2 bg-orange-fdf300 text-white rounded-md"
-              target="_blank"
-            >
-              <Icon icon="devicon:github" />
-            </a>
-            <a
-              href={url}
-              className="inline-block p-2 bg-blue-004892 text-white rounded-lg"
-              target="_blank"
-            >
-              <Icon icon="mdi:web" />
-            </a>
-          </div>
-        </div>
-      </article>
+        </article>
+      </Fade>
     </>
   );
 }
