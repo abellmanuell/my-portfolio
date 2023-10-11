@@ -68,14 +68,14 @@ function Project({ name, image, description, github_url, url, languages }) {
             <div className="space-x-2 text-2xl">
               <a
                 href={github_url}
-                className="inline-block p-2 bg-orange-fdf300 text-white rounded-md"
+                className="inline-block p-2 bg-orange-fdf300 text-white rounded-full"
                 target="_blank"
               >
                 <Icon icon="devicon:github" />
               </a>
               <a
                 href={url}
-                className="inline-block p-2 bg-blue-004892 text-white rounded-lg"
+                className="inline-block p-2 bg-blue-004892 text-white rounded-full"
                 target="_blank"
               >
                 <Icon icon="mdi:web" />
