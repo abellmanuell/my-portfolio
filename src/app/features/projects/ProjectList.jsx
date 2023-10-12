@@ -21,7 +21,7 @@ const projects = [
       "Paau Market is a dynamic MERN eCommerce application that tends to create an avenue for students to buy or sell products to other students.",
     languages: ["React", "Tailwind", "Express", "MongoDB", "Redux"],
     github_url: "https://github.com/abellmanuell/paau-market",
-    url: "https://paaumarket.web.com",
+    url: "https://paaumarket.com.ng",
   },
 ].reverse();
 
