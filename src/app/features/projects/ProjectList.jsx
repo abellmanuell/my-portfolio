@@ -18,9 +18,9 @@ const projects = [
     name: "Paau Market",
     image: "pauu-market.png",
     description:
-      "Paau Market is a dynamic MERN eCommerce application that tends to create an avenue for students to buy or sell products to other students.",
+      "Paau Market is a dynamic MERN eCommerce application that tends to create an avenue for Prince Audu Abubakar Unversity's student to buy or sell products to other students.",
     languages: ["React", "Tailwind", "Express", "MongoDB", "Redux"],
-    github_url: "https://github.com/abellmanuell/paau-market",
+    github_url: "https://github.com/paaumarket/paau-market",
     url: "https://paaumarket.com.ng",
   },
 ].reverse();
