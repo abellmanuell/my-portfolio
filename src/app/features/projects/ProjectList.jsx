@@ -16,7 +16,7 @@ const projects = [
   {
     id: "2",
     name: "Paau Market",
-    image: "pauu-market.png",
+    image: "paaumarket.png",
     description:
       "Paau Market is a dynamic MERN eCommerce application that tends to create an avenue for Prince Audu Abubakar Unversity's student to buy or sell products to other students.",
     languages: ["React", "Tailwind", "Express", "MongoDB", "Redux"],
