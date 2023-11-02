@@ -5,7 +5,7 @@ import TechStacks from "./TechStacks";
 function MainHomeContent() {
   return (
     <>
-      <main className="px-5 bg-blue-004892 text-white">
+      <main className="px-5 bg-blue-004892 text-white bg-hero-image">
         <div className="min-h-screen md:h-full md:w-3/4 m-auto">
           <section className="pt-24 pb-5 md:pb-10">
             <p>Hey, my name is</p>

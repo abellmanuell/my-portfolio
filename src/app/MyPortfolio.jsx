@@ -7,6 +7,7 @@ import Contact from "./features/contact/Contact";
 
 import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
+import { Slide } from "react-awesome-reveal";
 
 function MyPortfolio() {
   return (
@@ -14,7 +15,7 @@ function MyPortfolio() {
       <Link
         to="https://www.upwork.com/freelancers/~0149cd82615e1ba212"
         target="_blank"
-        className="fixed top-40 bg-[#f7df1e] text-white font-bold z-50 hidden md:flex justify-center items-center space-x-4 py-2 px-4 rounded-r-full ring-offset-8 ring-2 ring-offset-transparent"
+        className="fixed top-40 bg-[#f7df1e] text-white font-bold z-50 hidden md:flex justify-center items-center space-x-4 py-2 px-4 rounded-r-full ring-offset-8 ring-2 ring-offset-transparent animate-bounce"
       >
         <Icon icon="bxl:upwork" className="text-2xl text-[#108a00]" />
         <span className="text-xs text-black">Hire Me!</span>

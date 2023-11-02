@@ -49,7 +49,7 @@ function Project({ name, image, description, github_url, url, languages }) {
   return (
     <>
       <Fade duration={1000} delay={500}>
-        <article className="space-y-10 md:space-y-0 md:space-x-10 pb-10 md:grid grid-cols-2 items-center">
+        <article className="space-y-10 md:space-y-0 md:space-x-10 pb-10 md:grid grid-cols-2 items-center animate-pulse">
           <div>
             <div
               className="before:table before:pt-[70%] bg-cover bg-[40%] bg-white bg-no-repeat relative rounded-lg shadow-md"
