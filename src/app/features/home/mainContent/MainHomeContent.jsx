@@ -11,7 +11,7 @@ function MainHomeContent() {
             <p>Hey, my name is</p>
             <div className="flex space-x-2 text-3xl md:text-5xl">
               <h1 className="font-bold">Abel Emmanuel</h1>
-              <span className="hidden md:block">👋</span>
+              <span className="hidden md:block">&#128075;</span>
             </div>
           </section>
 
