@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         "blue-004892": "#3943B7",
-        "orange-fdf300": "#FFD23F",
+        "orange-fdf300": "#f7df1e",
       },
       fontFamily: {
         poppins: ["poppins", "sans-serif"],

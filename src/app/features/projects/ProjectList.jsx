@@ -23,6 +23,16 @@ const projects = [
     github_url: "https://github.com/paaumarket/paau-market",
     url: "https://paaumarket.com.ng",
   },
+  {
+    id: "3",
+    name: "Apple Watch Series 2",
+    image: "apple_watch.png",
+    description:
+      "It a single web page designed with Tailwind CSS, a utility-first workflow and with React-vite. The User Interface (UI) was gotten from Dribble.com.",
+    languages: ["React", "Tailwind"],
+    github_url: "",
+    url: "https://applewatchseries2.netlify.app",
+  },
 ].reverse();
 
 function ProjectList() {
@@ -65,20 +75,22 @@ function Project({ name, image, description, github_url, url, languages }) {
               </div>
             </div>
 
-            <div className="space-x-2 text-2xl">
+            <div className="space-x-2">
               <a
                 href={github_url}
-                className="inline-block p-2 bg-orange-fdf300 text-white rounded-full"
+                className="inline-block p-2 bg-orange-fdf300 rounded-lg"
                 target="_blank"
               >
-                <Icon icon="devicon:github" />
+                Source Code
+                {/* <Icon icon="devicon:github" /> */}
               </a>
               <a
                 href={url}
-                className="inline-block p-2 bg-blue-004892 text-white rounded-full"
+                className="inline-block p-2 bg-blue-004892 text-white rounded-lg"
                 target="_blank"
               >
-                <Icon icon="mdi:web" />
+                Demo
+                {/* <Icon icon="mdi:web" /> */}
               </a>
             </div>
           </div>

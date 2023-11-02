@@ -120,9 +120,9 @@ function Heading() {
                 <a
                   href={cv}
                   download
-                  className="cursor-pointer hover:underline decoration-white block bg-orange-fdf300 px-4 py-2 rounded-md shadow-md"
+                  className="cursor-pointer hover:underline decoration-white block bg-[#f7df1e] text-black font-bold px-4 py-2 rounded-full"
                 >
-                  View CV
+                  Resume
                 </a>
               </div>
             </nav>

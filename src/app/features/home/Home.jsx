@@ -1,5 +1,4 @@
 import React from "react";
-
 import Heading from "./heading/Heading";
 import MainHomeContent from "./mainContent/MainHomeContent";
 
