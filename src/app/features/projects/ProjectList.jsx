@@ -10,7 +10,7 @@ const projects = [
     description:
       "A clone of web twitter application using React, Tailwindcss and other libraries.",
     languages: ["React", "Tailwind"],
-    github_url: "https://github.com/abellmanuell/twitter-clone-",
+    repository_url: "https://github.com/abellmanuell/twitter-clone-",
     url: "https://twitterc-lone.netlify.app/",
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     description:
       "Paau Market is a dynamic MERN eCommerce application that tends to create an avenue for Prince Audu Abubakar Unversity's student to buy or sell products to other students.",
     languages: ["React", "Tailwind", "Express", "MongoDB", "Redux"],
-    github_url: "https://github.com/paaumarket/paau-market",
+    repository_url: "https://github.com/paaumarket/paau-market",
     url: "https://paaumarket.com.ng",
   },
   {
@@ -30,7 +30,7 @@ const projects = [
     description:
       "It a single web page designed with Tailwind CSS, a utility-first workflow and with React-vite. The User Interface (UI) was gotten from Dribble.com.",
     languages: ["React", "Tailwind"],
-    github_url: "",
+    repository_url: "https://gitlab.com/abellmanuell1/applewatchseries2",
     url: "https://applewatchseries2.netlify.app",
   },
 ].reverse();
@@ -45,7 +45,7 @@ function ProjectList() {
   );
 }
 
-function Project({ name, image, description, github_url, url, languages }) {
+function Project({ name, image, description, repository_url, url, languages }) {
   return (
     <>
       <Fade duration={1000} delay={500}>
@@ -77,7 +77,7 @@ function Project({ name, image, description, github_url, url, languages }) {
 
             <div className="space-x-2">
               <a
-                href={github_url}
+                href={repository_url}
                 className="inline-block p-2 bg-orange-fdf300 rounded-lg"
                 target="_blank"
               >
