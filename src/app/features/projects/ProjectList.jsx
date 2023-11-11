@@ -33,6 +33,16 @@ const projects = [
     repository_url: "https://gitlab.com/abellmanuell1/applewatchseries2",
     url: "https://applewatchseries2.netlify.app",
   },
+  {
+    id: "4",
+    name: "Tickety",
+    image: "tickety.png",
+    description:
+      "The project centers around developing a web app for purchasing movie and concert tickets, with a focus on delivering a user-friendly experience for my client's fans and customers.",
+    languages: ["React", "Tailwind", "Express", "MongoDB"],
+    repository_url: "https://gitlab.com/abellmanuell/tickety",
+    url: "https://ticketty.netlify.app/",
+  },
 ].reverse();
 
 function ProjectList() {
