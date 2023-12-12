@@ -20,7 +20,7 @@ const projects = [
     description:
       "Paau Market is a dynamic MERN eCommerce application that tends to create an avenue for Prince Audu Abubakar Unversity's student to buy or sell products to other students.",
     languages: ["React", "Tailwind", "Express", "MongoDB", "Redux"],
-    repository_url: "https://github.com/paaumarket/paau-market",
+    repository_url: "https://github.com/paaumarket/paaumarket",
     url: "https://paaumarket.com.ng",
   },
   {
