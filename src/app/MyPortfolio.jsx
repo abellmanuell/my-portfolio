@@ -7,7 +7,6 @@ import Contact from "./features/contact/Contact";
 
 import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
-import { Slide } from "react-awesome-reveal";
 
 function MyPortfolio() {
   return (
