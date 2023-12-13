@@ -59,7 +59,7 @@ function Project({ name, image, description, repository_url, url, languages }) {
   return (
     <>
       <Fade duration={1000} delay={500}>
-        <article className="space-y-10 md:space-y-0 md:space-x-10 pb-10 md:grid grid-cols-2 items-center animate-pulse">
+        <article className="hover:bg-neutral-50 p-10 rounded-lg space-y-10 md:space-y-0 md:space-x-10 md:grid grid-cols-2 items-center animate-pulse">
           <div>
             <div
               className="before:table before:pt-[70%] bg-cover bg-[40%] bg-white bg-no-repeat relative rounded-lg shadow-md"
@@ -68,9 +68,9 @@ function Project({ name, image, description, repository_url, url, languages }) {
           </div>
 
           <div>
-            <h3 className="text-5xl font-semibold">{name}</h3>
+            <h3 className="text-5xl font-semibold text-neutral-800">{name}</h3>
             <div className="pt-5">
-              <p>{description}</p>
+              <p className="text-neutral-400">{description}</p>
               <div className="grid grid-cols-4 gap-2 py-5 text-center text-xs">
                 {languages.map((language, index) => {
                   return (
@@ -92,7 +92,6 @@ function Project({ name, image, description, repository_url, url, languages }) {
                 target="_blank"
               >
                 Source Code
-                {/* <Icon icon="devicon:github" /> */}
               </a>
               <a
                 href={url}
@@ -100,7 +99,6 @@ function Project({ name, image, description, repository_url, url, languages }) {
                 target="_blank"
               >
                 Demo
-                {/* <Icon icon="mdi:web" /> */}
               </a>
             </div>
           </div>

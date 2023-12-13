@@ -19,10 +19,9 @@ function MainHomeContent() {
             <p>
               I am a{" "}
               <strong className="text-orange-fdf300">Software Developer</strong>{" "}
-              based in Nigeria, I have experience building websites and
-              applications with JavaScript, React, Redux, Express, NodeJs,
-              Tailwind, and MongoDB. With the tools I have, I have built
-              software that actually creates real-life solutions to unresolved
+              , I have experience building websites and applications with
+              JavaScript, React, Redux, Express, NodeJs, Tailwind, and MongoDB.
+              With this tools, I have built software that solve real-life
               problems. I am very capable of learning new skills quickly and am
               happy to work in any environment.
             </p>
@@ -34,9 +33,7 @@ function MainHomeContent() {
             </p>
             <br />
             <p>
-              <b>
-                I am open to new opportunities on-site in Nigeria or Remote.
-              </b>
+              <b>I am open to new opportunities on-site or Remote.</b>
             </p>
           </section>
 
