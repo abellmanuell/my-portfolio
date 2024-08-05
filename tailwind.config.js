@@ -7,8 +7,9 @@ export default {
     },
     extend: {
       colors: {
-        "blue-004892": "#3943B7",
-        "orange-fdf300": "#f7df1e",
+        primary: "#d03171",
+        secondary: "#f8d2e6",
+        "tw-gray": "#645a5a",
       },
       fontFamily: {
         poppins: ["poppins", "sans-serif"],
