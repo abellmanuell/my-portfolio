@@ -61,27 +61,27 @@ export default function Profolio() {
             title="Captures attention instantly"
             description="My designs are visually striking and tailored to your target audience."
             iconName="tabler:capture-filled"
-            iconBgColor="0030ff"
+            iconBgColor="bg-[#0030ff]"
           />
 
           <Benefit
-            title="Captures attention instantly"
-            description="My designs are visually striking and tailored to your target audience."
-            iconName="tabler:capture-filled"
-            iconBgColor="00b844"
+            title="Converts visitors into customers"
+            description="Strategic placement of calls-to-action and compelling offers maximize conversions."
+            iconName="ph:users-fill"
+            iconBgColor="bg-[#00b844]"
           />
           <Benefit
             title="Builds trust and credibility"
             description="Professional design and clear messaging establish your authority."
             iconName="codicon:workspace-trusted"
-            iconBgColor="ff9900"
+            iconBgColor="bg-[#ff9900]"
           />
 
           <Benefit
             title="Optimizes for mobile"
             description="Ensures your landing page looks great and functions flawlessly on all devices."
             iconName="ion:phone-portrait-outline"
-            iconBgColor="d03171"
+            iconBgColor="bg-[#d03171]"
           />
         </div>
 
@@ -139,9 +139,22 @@ export default function Profolio() {
         </div>
 
         <img src="/me.png" alt="Me" />
-        <h1 className="text-5xl font-bold pb-5 text-center mt-10">
+        <h1 className="text-5xl font-bold pb-2 text-center mt-10">
           Abel Emmanuel
         </h1>
+
+        <div className="flex justify-center text-2xl pb-5">
+          <Link to="https://www.messenger.com/t/171622323183252/">
+            <Icon icon="logos:messenger" className="m-2" />
+          </Link>
+
+          <Link to="https://x.com/abellmanuell">
+            <Icon icon="arcticons:x-twitter" className="m-2" />
+          </Link>
+          <Link to="https://facebook.com/abellmanuell">
+            <Icon icon="logos:facebook" className="m-2" />
+          </Link>
+        </div>
 
         <div className=" text-tw-gray mb-5">
           <p>
@@ -165,22 +178,19 @@ export default function Profolio() {
       <section className="my-10">
         <h1 className="text-5xl font-bold pb-5 text-center">My Company</h1>
         <div className="text-center text-tw-gray mb-10">
-          <p>
-            Here's just a few examples of our project we've worked out, I'm
-            happy to send you more examples.
-          </p>
+          <p>Here's my software company.</p>
         </div>
 
         <div className="my-10 grid gap-y-5 md:gap-2 ">
           <Project
             imgSrc="paaumarket.png"
             url="https://www.paaumarket.com.ng/"
-            description="Create visually stunning, user-centric landing pages that drive conversions and build brand trust."
+            description="Paau Market is an online student market place."
           />
         </div>
       </section>
 
-      <footer className="text-center">(c)2024</footer>
+      <footer className="text-center">Designed by Me, &copy; 2024</footer>
     </div>
   );
 }
@@ -188,7 +198,7 @@ export default function Profolio() {
 const Benefit = function ({ title, description, iconName, iconBgColor }) {
   return (
     <div className="bg-secondary p-10 px-5 rounded-md border border-primary">
-      <div className={`inline-block bg-[#${iconBgColor}] p-3 rounded-md`}>
+      <div className={`inline-block ${iconBgColor} p-3 rounded-md`}>
         <Icon icon={iconName} className="text-3xl text-white" />
       </div>
       <h4 className="mt-5 mb-2 font-bold text-primary">{title}</h4>
@@ -197,11 +207,14 @@ const Benefit = function ({ title, description, iconName, iconBgColor }) {
   );
 };
 
-const CallToAction = ({ text }) => {
+const CallToAction = ({
+  text,
+  url = "https://www.messenger.com/t/171622323183252/",
+}) => {
   return (
     <div className="flex justify-center">
       <Link
-        to="#"
+        to={url}
         target="_blank"
         className="bg-primary px-10 py-4 rounded-md font-bold text-white mx-auto inline-block"
       >
@@ -213,19 +226,16 @@ const CallToAction = ({ text }) => {
 
 function Project({ imgSrc, description, url }) {
   return (
-    <Link
-      to={url}
-      className="bg-secondary p-10 md:py-2 md:px-5 rounded-md border border-primary flex flex-col md:flex-row items-center justify-center"
-    >
+    <div className="bg-secondary p-10 md:py-2 md:px-5 rounded-md border border-primary flex flex-col md:flex-row items-center justify-center">
       <div>
         <img src={`/${imgSrc}`} alt="" width="200" />
       </div>
       <p className="md:mx-4 my-5 text-center md:text-left">{description}</p>
       <div className="">
-        <Link to={url} className="font-bold text-primary">
+        <Link to={url} target="_blank" className="font-bold text-primary">
           View
         </Link>
       </div>
-    </Link>
+    </div>
   );
 }
