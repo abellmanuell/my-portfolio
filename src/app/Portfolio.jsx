@@ -190,6 +190,23 @@ export default function Profolio() {
         </div>
       </section>
 
+      <div>
+        <p className="text-center text-tw-gray mb-2">
+          Support Me by Buying Me a Coffee.
+        </p>
+        <Link
+          to="https://buymeacoffee.com/abellmanuell"
+          target="_blank"
+          className="flex px-4 py-5 mb-10 bg-[#ffdd00] font-bold rounded-xl justify-center items-center text-center"
+        >
+          <Icon
+            icon="simple-icons:buymeacoffee"
+            className="text-white text-4xl mr-2"
+          ></Icon>
+          <span>Buy Me a Coffee</span>
+        </Link>
+      </div>
+
       <footer className="text-center">Designed by Me, &copy; 2024</footer>
     </div>
   );
