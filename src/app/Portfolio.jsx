@@ -224,10 +224,7 @@ const Benefit = function ({ title, description, iconName, iconBgColor }) {
   );
 };
 
-const CallToAction = ({
-  text,
-  url = "https://www.messenger.com/t/171622323183252/",
-}) => {
+const CallToAction = ({ text, url = "https://facebook.com/abellmanuell/" }) => {
   return (
     <div className="flex justify-center">
       <Link
