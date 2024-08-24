@@ -144,8 +144,8 @@ export default function Profolio() {
         </h1>
 
         <div className="flex justify-center text-2xl pb-5">
-          <Link to="https://www.messenger.com/t/171622323183252/">
-            <Icon icon="logos:messenger" className="m-2" />
+          <Link to="https://wa.link/hhypmr">
+            <Icon icon="logos:whatsapp-icon" className="m-2" />
           </Link>
 
           <Link to="https://x.com/abellmanuell">
