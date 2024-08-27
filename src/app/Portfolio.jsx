@@ -17,7 +17,7 @@ export default function Profolio() {
 
       <section className="my-5 ">
         <h1 className="text-5xl font-bold pb-5 text-center">
-          Design Landing Pages That{" "}
+          Design Premium Landing Pages That{" "}
           <span className="text-primary">Convert</span> Like Crazy.
         </h1>
         <p className="text-center text-tw-gray">
@@ -90,7 +90,7 @@ export default function Profolio() {
 
       <section className="my-20">
         <h1 className="text-5xl font-bold pb-5 text-center">
-          Some of My Proects
+          Some of My Projects
         </h1>
         <div className="text-center text-tw-gray mb-10">
           <p>
