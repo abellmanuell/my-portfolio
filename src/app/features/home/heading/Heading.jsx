@@ -37,7 +37,7 @@ function Heading() {
 
   return (
     <div className="relative">
-      <header className="bg-blue-004892 z-10 fixed top-0 w-full transition-all ease-in-out duration-200 text-white">
+      <header className="bg-amber-700 z-10 fixed top-0 w-full transition-all ease-in-out duration-200 text-white">
         <article className="md:w-3/4 space-x-2 mx-auto flex items-center h-16 p-5">
           <div>
             <Link

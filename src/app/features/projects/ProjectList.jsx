@@ -14,16 +14,6 @@ const projects = [
     url: "https://twitterc-lone.netlify.app/",
   },
   {
-    id: "2",
-    name: "Paau Market",
-    image: "paaumarket.webp",
-    description:
-      "Paau Market is a dynamic MERN eCommerce application that tends to create an avenue for Prince Audu Abubakar Unversity's student to buy or sell products to other students.",
-    languages: ["React", "Tailwind", "Express", "MongoDB", "Redux"],
-    repository_url: "https://github.com/paaumarket/paaumarket",
-    url: "https://paaumarket.com.ng",
-  },
-  {
     id: "3",
     name: "Apple Watch Series 2",
     image: "apple_watch.png",
@@ -34,14 +24,14 @@ const projects = [
     url: "https://applewatchseries2.netlify.app",
   },
   {
-    id: "4",
-    name: "Tickety",
-    image: "tickety.png",
+    id: "2",
+    name: "Paau Market",
+    image: "pm_logo.png",
     description:
-      "The project centers around developing a web app for purchasing movie and concert tickets, with a focus on delivering a user-friendly experience for my client's fans and customers.",
-    languages: ["React", "Tailwind", "Express", "MongoDB"],
-    repository_url: "https://gitlab.com/abellmanuell/tickety",
-    url: "https://ticketty.netlify.app/",
+      "Paau Market is a dynamic MERN eCommerce application that tends to create an avenue for Prince Audu Abubakar Unversity's student to buy or sell products to other students.",
+    languages: ["React", "Tailwind", "Express", "MongoDB", "Redux"],
+    repository_url: "https://github.com/paaumarket/paaumarket",
+    url: "https://paaumarket.com.ng",
   },
 ].reverse();
 
@@ -62,7 +52,7 @@ function Project({ name, image, description, repository_url, url, languages }) {
         <article className="hover:bg-neutral-50 p-10 rounded-lg space-y-10 md:space-y-0 md:space-x-10 md:grid grid-cols-2 items-center animate-pulse">
           <div>
             <div
-              className="before:table before:pt-[70%] bg-cover bg-[40%] bg-white bg-no-repeat relative rounded-lg shadow-md"
+              className="before:table before:pt-[70%] bg-cover bg-[40%] bg-white bg-no-repeat relative rounded-md shadow-md"
               style={{ backgroundImage: `url(/projects/${image})` }}
             ></div>
           </div>
@@ -88,14 +78,14 @@ function Project({ name, image, description, repository_url, url, languages }) {
             <div className="space-x-2">
               <a
                 href={repository_url}
-                className="inline-block p-2 bg-orange-fdf300 rounded-lg"
+                className="inline-block p-2 bg-amber-700 rounded-md text-white text-xs"
                 target="_blank"
               >
                 Source Code
               </a>
               <a
                 href={url}
-                className="inline-block p-2 bg-blue-004892 text-white rounded-lg"
+                className="inline-block p-2 bg-amber-700 text-white rounded-md text-xs"
                 target="_blank"
               >
                 Demo
