@@ -2,25 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body,
-#root {
-  font-family: "Poppins";
-  height: 100%;
-  width: 100%;
-}
-
-.nav-full-page {
-  display: flex;
-  background-color: #000;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  opacity: 0.8;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  justify-content: center;
-  flex-direction: column;
+@layer base {
+  html {
+    font-family: "Ubuntu", sans-serif;
+  }
 }
