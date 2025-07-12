@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import Avatar from "./components/Avatar";
 
 export default function App() {
   return (
@@ -8,11 +9,10 @@ export default function App() {
         I am{" "}
         <span className="font-mono italic font-medium"> Abel Emmanuel. </span>
       </h1>
-      <img
-        src="/profile_picture.jpg"
-        alt="Abel Emmanuel's profile picture"
-        className="rounded-full h-[150px] w-[150px] object-cover my-4"
-      />
+
+      <div className="my-4">
+        <Avatar className="h-[150px] w-[150px]" />
+      </div>
 
       <p>Click here to learn more:</p>
       <ul className="flex flex-col items-center">
