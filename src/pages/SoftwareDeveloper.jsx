@@ -1,6 +1,7 @@
 import { ArrowUpRightIcon } from "@heroicons/react/16/solid";
 import Avatar from "../components/Avatar";
 import { Link } from "react-router";
+import { articles } from "../lib/data.js";
 
 export default function SoftwareDeveloper() {
   return (
@@ -23,6 +24,9 @@ export default function SoftwareDeveloper() {
         </div>
       </Link>
 
+      {/**************************
+       * PROFILE SECTION
+       ***************************/}
       <div className="mb-10">
         <section className="bg-[#dc8a66] p-2 rounded-md relative h-[90px] mb-4">
           <div className="w-[900px]">
@@ -38,10 +42,13 @@ export default function SoftwareDeveloper() {
         <h2 className="text-neutral-500 text-sm">Software Developer</h2>
       </div>
 
+      {/**************************
+       * A QUICK INTRODUCTION
+       ***************************/}
       <article className="mt-6 space-y-6">
         <p>
-          I&apos;m Abel Emmanuel, a 20-year old indie-hacker, open contributor,
-          and sales funnel builder.
+          I&apos;m Abel Emmanuel, a 20-year old indie-hacker, open source
+          contributor, and sales funnel builder.
         </p>
 
         <p>
@@ -49,8 +56,8 @@ export default function SoftwareDeveloper() {
           <Link to="" className="text-sky-500 underline">
             Zaid
           </Link>
-          , a church or religious management software that helps churches manage
-          their members, events, and finances, etc.
+          , a church management software that helps churches manage their
+          members, events, and finances, etc.
         </p>
 
         <p>
@@ -80,6 +87,52 @@ export default function SoftwareDeveloper() {
           </Link>
           .
         </p>
+      </article>
+
+      {/**************************
+       * SOCIAL MEDIA LINKS
+       ***************************/}
+      <article>
+        <ul className="flex items-center space-x-2 mt-6 ">
+          <li>
+            <Link className="text-sky-500" to="https://x.com/abellmanuell">
+              X/Twitter
+            </Link>
+          </li>
+          <li>•</li>
+          <li>
+            <Link
+              className="text-sky-500"
+              to="https://www.linkedin.com/in/abellmanuell/"
+            >
+              LinkedIn
+            </Link>
+          </li>
+          <li>•</li>
+          <li>
+            <Link className="text-sky-500" to="https://github.com/abellmanuell">
+              GitHub
+            </Link>
+          </li>
+        </ul>
+      </article>
+
+      {/**************************
+       * RECENT ARTICLES
+       ***************************/}
+
+      <article>
+        <h1 className="text-xl mt-10 mb-4 font-medium">My recent article</h1>
+        <ul>
+          {articles.map((article, index) => (
+            <li key={index}>
+              <Link to={article.link} className="block mb-4">
+                <h1>{article.title}</h1>
+                <p className="text-sm text-neutral-500">{article.date}</p>
+              </Link>
+            </li>
+          ))}
+        </ul>
       </article>
     </section>
   );
