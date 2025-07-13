@@ -4,7 +4,7 @@ import { Link } from "react-router";
 
 export default function SoftwareDeveloper() {
   return (
-    <section className="sm:w-2/6 m-auto p-2 sm:py-20 ">
+    <section className="sm:w-2/6 m-auto px-2 py-10 sm:py-20 ">
       <Link
         to="https://www.linkedin.com/in/abellmanuell/"
         target="_blank"
