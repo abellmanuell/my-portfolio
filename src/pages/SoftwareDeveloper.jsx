@@ -5,7 +5,12 @@ import Profile from "../components/Profile.jsx";
 export default function SoftwareDeveloper() {
   return (
     <section className="sm:w-2/6 m-auto px-2 py-10 sm:py-20 ">
-      <Profile title="Abel Emmanuel" subtitle="Software Developer" />
+      <Profile
+        title="Abel Emmanuel"
+        subtitle="Software Developer"
+        hot_title="LinkedIn"
+        hotlink="https://www.linkedin.com/in/abellmanuell/"
+      />
 
       {/**************************
        * A QUICK INTRODUCTION

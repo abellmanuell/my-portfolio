@@ -2,11 +2,11 @@ import { ArrowUpRightIcon } from "@heroicons/react/16/solid";
 import Avatar from "../components/Avatar";
 import { Link } from "react-router";
 
-export default function Profile({ title, subtitle }) {
+export default function Profile({ title, subtitle, hot_title, hotlink }) {
   return (
     <>
       <Link
-        to="https://www.linkedin.com/in/abellmanuell/"
+        to={hotlink}
         target="_blank"
         rel="noopener noreferrer"
         className="block mb-10"
@@ -18,7 +18,7 @@ export default function Profile({ title, subtitle }) {
               <span>abellmanuell</span>
               <ArrowUpRightIcon className="h-4 w-4 text-neutral-400" />
             </div>
-            <p className="text-neutral-500 text-[10px]">LinkedIn</p>
+            <p className="text-neutral-500 text-[10px]">{hot_title}</p>
           </section>
         </div>
       </Link>
