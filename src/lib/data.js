@@ -2,7 +2,7 @@ export const articles = [
   {
     title: "Fab3 is Live!",
     date: "Jun 6, 2025",
-    link: "https://medium.com/@mannydev02/build-fast-and-deploy-fast-buildinpublic-3afb359f622d",
+    link: "https://dev.to/abellmanuell/fab3-is-live-47ag",
   },
   {
     title: "Was bookmarking my web3 airdrops on Chrome Bookmark.",
