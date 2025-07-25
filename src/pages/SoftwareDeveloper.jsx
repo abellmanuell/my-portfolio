@@ -23,7 +23,10 @@ export default function SoftwareDeveloper() {
 
         <p>
           I&apos;m currently building{" "}
-          <Link to="" className="text-sky-500 underline">
+          <Link
+            to="https://effulgent-sable-5ef780.netlify.app/"
+            className="text-sky-500 underline"
+          >
             Zaid
           </Link>
           , a church management software that helps churches manage their
