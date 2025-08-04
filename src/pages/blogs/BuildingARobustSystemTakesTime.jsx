@@ -1,10 +1,11 @@
 import SocialMedias from "../../components/SocialMedias";
 import zaidDashboard from "../../assets/zaid_dashboard.png";
 import Profile from "../../components/Profile";
+import { Link } from "react-router";
 
 export default function BuildingARobustSystemTakesTime() {
   return (
-    <section className="sm:w-2/6 m-auto px-2 py-10 sm:py-20 leading-8">
+    <section className="sm:w-2/5 m-auto px-2 py-10 sm:py-20 leading-8">
       <Profile
         title="Building a robust system takes time."
         subtitle="Aug 4, 2025"
@@ -18,7 +19,14 @@ export default function BuildingARobustSystemTakesTime() {
         <p>Ideas are built on ideas.</p>
         <p>
           There must be a first idea to build on other ideas. I’ve learned it by
-          building Zaid.
+          building{" "}
+          <Link
+            title="Zaid"
+            to="https://www.zaid.rest"
+            className="underline text-sky-500 italic"
+          >
+            Zaid.
+          </Link>
         </p>
         <p>
           Most importantly, my first change of mindset is to build it and make
@@ -31,6 +39,7 @@ export default function BuildingARobustSystemTakesTime() {
             src={zaidDashboard}
             alt="Zaid Dashboard"
             className="rounded-lg"
+            title="Zaid Dashboard"
           />
           <h4
             title="Zaid Admin Dashboard"
@@ -67,7 +76,7 @@ export default function BuildingARobustSystemTakesTime() {
           Zaid is a digitalized record keeper. It is a tool to help churches
           manage members, events, and finances.
         </p>
-        <p>Here&apos;s a short story about my dad:</p>
+        <p className="font-bold">Here&apos;s a short story about my dad:</p>
         <p>
           He was a Deacon (now elder) and a Men&apos;s Fellowship Treasurer of
           the church.

@@ -32,12 +32,15 @@ export default function Profile({ title, subtitle, hot_title, hotlink }) {
             <img
               src="/abellmanuell.webp"
               alt="Abel Emmanuel's profile picture."
+              title="Abel Emmanuel's profile picture."
               className="rounded-full object-cover h-[80px] w-[80px] absolute -top-4 left-2"
               loading="lazy"
             />
           </div>
         </section>
-        <h1 className="text-xl mt-2 font-medium">{title}</h1>
+        <h1 className="text-xl mt-2 font-medium" title={title}>
+          {title}
+        </h1>
         <h2 className="text-neutral-500 text-sm">{subtitle}</h2>
       </div>
     </>
