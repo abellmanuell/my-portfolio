@@ -3,10 +3,14 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router";
+// Supports weights 100-900
+// import "@fontsource-variable/roboto";
+import "@fontsource/poppins";
 
 import MyBlog from "./pages/MyBlog";
 import SoftwareDeveloper from "./pages/SoftwareDeveloper";
 import FunnelBuilder from "./pages/FunnelBuilder";
+import BuildingARobustSystemTakesTime from "./pages/blogs/BuildingARobustSystemTakesTime";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/blog",
     element: <MyBlog />,
+  },
+  {
+    path: "/blog/building-a-robust-system-takes-time",
+    element: <BuildingARobustSystemTakesTime />,
   },
 ]);
 

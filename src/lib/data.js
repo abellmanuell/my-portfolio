@@ -1,5 +1,10 @@
 export const articles = [
   {
+    title: "Building a robust system takes time.",
+    date: "Aug 4, 2025",
+    link: "/blog/building-a-robust-system-takes-time",
+  },
+  {
     title: "Fab3 is Live!",
     date: "Jun 6, 2025",
     link: "https://dev.to/abellmanuell/fab3-is-live-47ag",
