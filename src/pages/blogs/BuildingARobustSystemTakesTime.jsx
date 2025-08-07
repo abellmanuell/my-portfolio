@@ -5,7 +5,7 @@ import { Link } from "react-router";
 
 export default function BuildingARobustSystemTakesTime() {
   return (
-    <section className="sm:w-2/5 m-auto px-2 py-10 sm:py-20 leading-8">
+    <section className="sm:w-2/6 m-auto px-2 py-10 sm:py-20 leading-8">
       <Profile
         title="Building a robust system takes time."
         subtitle="Aug 4, 2025"
