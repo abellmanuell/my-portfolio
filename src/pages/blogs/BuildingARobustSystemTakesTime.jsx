@@ -34,7 +34,7 @@ export default function BuildingARobustSystemTakesTime() {
         </p>
         <p>Fancy comes later.</p>
 
-        <div className="h-[250px]">
+        <div className="h-[300px]">
           <img
             src={zaidDashboard}
             alt="Zaid Dashboard"
