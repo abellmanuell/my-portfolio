@@ -43,7 +43,7 @@ export default function HowIGotAFrontendDeveloperJobInTwoWeeks() {
           hub, Labspace by JD Labs in Minna, Niger State at large.
         </p>
         <p>
-          The second day all the corps members were onboarded on the affairs,
+          On the second day all the corps members were onboarded on the affairs,
           operations and principles of Labspace.
         </p>
         <p>
@@ -52,7 +52,7 @@ export default function HowIGotAFrontendDeveloperJobInTwoWeeks() {
           software developers who are passionate about their crafts.
         </p>
         <b className="block">
-          Each day a developer walk-in I introduced myself like:
+          Each day a developer walk-in I introduce myself like:
         </b>
         <p>
           <em>
@@ -69,9 +69,9 @@ export default function HowIGotAFrontendDeveloperJobInTwoWeeks() {
         </p>
         <b className="block">Founders Friday</b>
         <p>
-          To put differently, this weekend I attended Founders Friday, the
-          Fiveth Editions hosted at Ministry of Communications Technology and
-          Digital Economy Niger State.
+          To put differently, this weekend I attended Founders Friday, the Fifth
+          Editions hosted at Ministry of Communications Technology and Digital
+          Economy Niger State.
         </p>
         <p>
           Founders Friday is an event where founders meet on a Friday of every
