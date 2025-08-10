@@ -74,7 +74,7 @@ export default function SoftwareDeveloper() {
         <ul>
           {articles.map((article, index) => (
             <li key={index}>
-              <Link to={article.link} className="block mb-4">
+              <Link to={article.link} className="block my-6">
                 <h1>{article.title}</h1>
                 <p className="text-sm text-neutral-500">{article.date}</p>
               </Link>

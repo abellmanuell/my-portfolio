@@ -11,6 +11,7 @@ import MyBlog from "./pages/MyBlog";
 import SoftwareDeveloper from "./pages/SoftwareDeveloper";
 import FunnelBuilder from "./pages/FunnelBuilder";
 import BuildingARobustSystemTakesTime from "./pages/blogs/BuildingARobustSystemTakesTime";
+import HowIGotAFrontendDeveloperJobInTwoWeeks from "./pages/blogs/HowIGotAFrontendDeveloperJobInTwoWeeks";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "/blog/building-a-robust-system-takes-time",
     element: <BuildingARobustSystemTakesTime />,
+  },
+  {
+    path: "/blog/how-i-got-a-frontend-developer-job-in-two-weeks",
+    element: <HowIGotAFrontendDeveloperJobInTwoWeeks />,
   },
 ]);
 
