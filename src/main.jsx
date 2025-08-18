@@ -12,6 +12,7 @@ import SoftwareDeveloper from "./pages/SoftwareDeveloper";
 import FunnelBuilder from "./pages/FunnelBuilder";
 import BuildingARobustSystemTakesTime from "./pages/blogs/BuildingARobustSystemTakesTime";
 import HowIGotAFrontendDeveloperJobInTwoWeeks from "./pages/blogs/HowIGotAFrontendDeveloperJobInTwoWeeks";
+import RebuildingPaauMarketApp from "./pages/blogs/RebuildingPaauMarketApp";
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
   {
     path: "/blog/how-i-got-a-frontend-developer-job-in-two-weeks",
     element: <HowIGotAFrontendDeveloperJobInTwoWeeks />,
+  },
+  {
+    path: "/blog/rebuilding-paau-market-app",
+    element: <RebuildingPaauMarketApp />,
   },
 ]);
 

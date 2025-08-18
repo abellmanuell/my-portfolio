@@ -1,5 +1,10 @@
 export const articles = [
   {
+    title: "Rebuilding Paau Market App",
+    date: "Aug 18, 2025",
+    link: "/blog/rebuilding-paau-market-app",
+  },
+  {
     title: "How I Got a Frontend Developer Job in Two Weeks.",
     date: "Aug 10, 2025",
     link: "/blog/how-i-got-a-frontend-developer-job-in-two-weeks",
