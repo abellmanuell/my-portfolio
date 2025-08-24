@@ -1,5 +1,10 @@
 export const articles = [
   {
+    title: "Dart Journey",
+    date: "Aug 24, 2025",
+    link: "/blog/dart-journey",
+  },
+  {
     title: "Rebuilding Paau Market App",
     date: "Aug 18, 2025",
     link: "/blog/rebuilding-paau-market-app",

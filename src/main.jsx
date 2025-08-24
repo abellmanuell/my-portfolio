@@ -13,6 +13,7 @@ import FunnelBuilder from "./pages/FunnelBuilder";
 import BuildingARobustSystemTakesTime from "./pages/blogs/BuildingARobustSystemTakesTime";
 import HowIGotAFrontendDeveloperJobInTwoWeeks from "./pages/blogs/HowIGotAFrontendDeveloperJobInTwoWeeks";
 import RebuildingPaauMarketApp from "./pages/blogs/RebuildingPaauMarketApp";
+import DartJourney from "./pages/blogs/DartJourney";
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
   {
     path: "/blog/rebuilding-paau-market-app",
     element: <RebuildingPaauMarketApp />,
+  },
+  {
+    path: "/blog/dart-journey",
+    element: <DartJourney />,
   },
 ]);
 

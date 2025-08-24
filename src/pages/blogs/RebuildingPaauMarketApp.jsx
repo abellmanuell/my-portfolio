@@ -164,7 +164,7 @@ export default function RebuildingPaauMarketApp() {
           approaching the market in a different dimension and strategies.
         </p>
 
-        <p>Watch HOW we’re going to do it.</p>
+        <p>Watch HOW we&apos;re going to do it.</p>
 
         <p>
           Visit{" "}
