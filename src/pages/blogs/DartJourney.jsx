@@ -5,7 +5,7 @@ import newHP1 from "../../assets/new-hp-1.jpeg";
 import newHP2 from "../../assets/new-hp-2.jpeg";
 import { Link } from "react-router";
 
-export default function RebuildingPaauMarketApp() {
+export default function DartJourney() {
   return (
     <section className="sm:w-2/6 m-auto px-2 py-10 sm:py-20 leading-8">
       <Profile
@@ -27,20 +27,20 @@ export default function RebuildingPaauMarketApp() {
         </p>
 
         <p>
-          A lot happened last week, and I couldn&apos;t build or ship a product
-          or feature.
+          A lot happened last week, and I couldn’t build or ship a product or
+          feature.
         </p>
 
         <p>
-          Thursday last week, I was taking some kids&apos; lessons on the
+          Thursday last week, I was taking some kids’ lessons on the
           fundamentals of programming languages, and at some point I began to
           passive a burnt smell.
         </p>
 
         <p>
           I quickly turn off the switch, detach the charger from the laptop. I
-          waited for about 2 minutes to turn on the laptop, but it didn&apos;t
-          turn on.
+          waited for about 2 minutes to turn on the laptop, but it didn’t turn
+          on.
         </p>
 
         <p>
@@ -74,7 +74,7 @@ export default function RebuildingPaauMarketApp() {
           because I thought it was a minor issue.
         </p>
 
-        <p>I didn&apos;t know it warranted changing the motherboard.</p>
+        <p>I didn’t know it warranted changing the motherboard.</p>
 
         <p>
           I asked for the price of a new motherboard. The price was high and the
@@ -120,18 +120,18 @@ export default function RebuildingPaauMarketApp() {
           </h4>
         </div>
 
-        <p>That&apos;s all for the IC and the new laptop.</p>
+        <p>That’s all for the IC and the new laptop.</p>
 
         <b className="block">Rebuilding Paau Market.</b>
 
         <p>
-          Three years ago, I found a common problem peculiar to the
-          students&apos; trade, and I embarked on building a solution for it.
+          Three years ago, I found a common problem peculiar to the students’
+          trade, and I embarked on building a solution for it.
         </p>
 
         <p>
-          There&apos;s a gap between a student who is selling and a student who
-          is buying in the school campus, and we went ahead to create a school
+          There’s a gap between a student who is selling and a student who is
+          buying in the school campus, and we went ahead to create a school
           platform that is secure and safe for trading with other students.
         </p>
 
@@ -155,7 +155,7 @@ export default function RebuildingPaauMarketApp() {
         </p>
 
         <p>
-          Right now, I&apos;m looking at building the Android version, while iOS
+          Right now, I’m looking at building the Android version, while iOS
           comes later.
         </p>
 
@@ -180,11 +180,11 @@ export default function RebuildingPaauMarketApp() {
         <p>Watch OUT for my next updates.</p>
         <p>Thanks for reading to this point.</p>
 
-        <b className="block">Please DON&apos;T forget.</b>
+        <b className="block">Please DON’T forget.</b>
 
         <p>
-          I&apos;m Abel Emmanuel, I love building beautiful and solutions
-          products, saas.
+          I’m Abel Emmanuel, I love building beautiful and solutions products,
+          saas.
         </p>
 
         <p>Write me a feedback and let&apos;s connect on:</p>
