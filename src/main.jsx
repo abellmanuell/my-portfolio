@@ -14,6 +14,7 @@ import BuildingARobustSystemTakesTime from "./pages/blogs/BuildingARobustSystemT
 import HowIGotAFrontendDeveloperJobInTwoWeeks from "./pages/blogs/HowIGotAFrontendDeveloperJobInTwoWeeks";
 import RebuildingPaauMarketApp from "./pages/blogs/RebuildingPaauMarketApp";
 import DartJourney from "./pages/blogs/DartJourney";
+import BuiltACurrencyConverterAndWeatherApp from "./pages/blogs/BuiltACurrencyConverterAndWeatherApp";
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
   {
     path: "/blog/dart-journey",
     element: <DartJourney />,
+  },
+  {
+    path: "/blog/built-a-currency-converter-and-weather-app",
+    element: <BuiltACurrencyConverterAndWeatherApp />,
   },
 ]);
 
