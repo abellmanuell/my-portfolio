@@ -1,5 +1,10 @@
 export const articles = [
   {
+    title: "Prepared Everything Beforehand.",
+    date: "Sept 7, 2025",
+    link: "/blog/prepared-everything-beforehand",
+  },
+  {
     title: "Built a Currency Converter and Weather App.",
     date: "Aug 31, 2025",
     link: "/blog/built-a-currency-converter-and-weather-app",

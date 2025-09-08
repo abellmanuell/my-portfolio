@@ -15,6 +15,7 @@ import HowIGotAFrontendDeveloperJobInTwoWeeks from "./pages/blogs/HowIGotAFronte
 import RebuildingPaauMarketApp from "./pages/blogs/RebuildingPaauMarketApp";
 import DartJourney from "./pages/blogs/DartJourney";
 import BuiltACurrencyConverterAndWeatherApp from "./pages/blogs/BuiltACurrencyConverterAndWeatherApp";
+import PreparedEverythingBeforehand from "./pages/blogs/PreparedEverything-Beforehand";
 
 const router = createBrowserRouter([
   {
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
   {
     path: "/blog/built-a-currency-converter-and-weather-app",
     element: <BuiltACurrencyConverterAndWeatherApp />,
+  },
+  {
+    path: "/blog/prepared-everything-beforehand",
+    element: <PreparedEverythingBeforehand />,
   },
 ]);
 
