@@ -1,5 +1,10 @@
 export const articles = [
   {
+    title: "How Building In Public Helped Me.",
+    date: "Sept 15, 2025",
+    link: "/blog/how-building-in-public-helped-me",
+  },
+  {
     title: "Prepared Everything Beforehand.",
     date: "Sept 7, 2025",
     link: "/blog/prepared-everything-beforehand",

@@ -1,5 +1,4 @@
 import SocialMedias from "../../components/SocialMedias";
-import zaidDashboard from "../../assets/zaid_dashboard.png";
 import Profile from "../../components/Profile";
 import { Link } from "react-router";
 
