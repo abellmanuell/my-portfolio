@@ -1,5 +1,10 @@
 export const articles = [
   {
+    title: "How I Redesigned the Interactive Cleva Banking Mobile App.",
+    date: "Oct 19, 2025",
+    link: "/blog/how-i-redesigned-the-interactive-cleva-mobile-app",
+  },
+  {
     title: "How Building In Public Helped Me.",
     date: "Sept 15, 2025",
     // link: "/blog/how-building-in-public-helped-me",

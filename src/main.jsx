@@ -16,6 +16,7 @@ import RebuildingPaauMarketApp from "./pages/blogs/RebuildingPaauMarketApp";
 import DartJourney from "./pages/blogs/DartJourney";
 import BuiltACurrencyConverterAndWeatherApp from "./pages/blogs/BuiltACurrencyConverterAndWeatherApp";
 import PreparedEverythingBeforehand from "./pages/blogs/PreparedEverything-Beforehand";
+import HowIRedesignedTheInteractiveClevaMobileApp from "./pages/blogs/HowIRedesignedTheInteractiveClevaMobileApp";
 // import HowBuildingInPublicHelpedMe from "./pages/blogs/HowBuildingInPublicHelpedMe";
 
 const router = createBrowserRouter([
@@ -62,6 +63,11 @@ const router = createBrowserRouter([
   {
     // path: "/blog/how-building-in-public-helped-me",
     // element: <HowBuildingInPublicHelpedMe />,
+  },
+
+  {
+    path: "/blog/how-i-redesigned-the-interactive-cleva-mobile-app",
+    element: <HowIRedesignedTheInteractiveClevaMobileApp />,
   },
 ]);
 
