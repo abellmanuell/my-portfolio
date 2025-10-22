@@ -18,17 +18,17 @@ export default function SoftwareDeveloper() {
        ***************************/}
       <article className="mt-6 space-y-6">
         <p>
-          I&apos;m Abel Emmanuel, a 20-year old indie-hacker, open source
-          contributor, and sales funnel builder.
+          I&apos;m Abel Emmanuel, a 20-year old Mobile & Web App Developer,
+          indie-hacker, open source contributor, and sales funnel builder.
         </p>
 
         <p>
           I&apos;m currently building{" "}
-          <Link to="https://www.zaid.rest" className="text-sky-500 underline">
-            Zaid
+          <Link to="https://" className="text-sky-500 underline">
+            Foodrive
           </Link>
-          , a church management software that helps churches manage their
-          members, events, and finances, etc.
+          is a location-based food ordering and delivery platform designed for
+          today&apos;s busy professionals.
         </p>
 
         <p>
@@ -49,7 +49,7 @@ export default function SoftwareDeveloper() {
           <Link to="http://fab3.rest/" className="text-sky-500 underline">
             Fab3
           </Link>
-          , and{" "}
+          , Zaid, and{" "}
           <Link
             to="https://www.digit.abellmanuell.com.ng/"
             className="text-sky-500 underline"
